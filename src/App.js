@@ -17,7 +17,7 @@ class App extends Component {
       </Grid>
       <Grid container columns={1} >
         <Grid.Column>
-          <Header  size='huge'>VIDEO SEARCH</Header>
+          <Header  size='huge'>VIDEO TITLE SEARCH</Header>
         </Grid.Column>
       </Grid>
       <Grid container columns={1} >

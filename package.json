@@ -1,8 +1,8 @@
 {
-  "name": "react-gh-pages",
+  "name": "videotitlesearch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gitname.github.io/react-gh-pages",
+  "homepage": "http://cskonopka.github.io/videotitlesearch",
   "dependencies": {
     "react": "^16.2.0",
     "react-autosuggest": "^9.3.4",

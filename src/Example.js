@@ -61,7 +61,7 @@ export default class Example extends Component  {
 
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'type a letter, find a video',
+      placeholder: 'type a letter, find a title',
       value,
       onChange: this.onChange
     };
