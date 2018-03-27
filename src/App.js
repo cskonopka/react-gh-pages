@@ -1,21 +1,39 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Example from './Example';
+import logo2 from './csk-logo-transparent.png'
+import { Grid, Image, Header } from 'semantic-ui-react'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+      <div className="heads">
+      <Grid container columns={1} >
+        <Grid.Column>
+          <Image src={logo2} href='http://cskonopka.com' size='medium' centered/>
+        </Grid.Column>
+      </Grid>
+      <Grid container columns={1} >
+        <Grid.Column>
+          <Header  size='huge'>VIDEO SEARCH</Header>
+        </Grid.Column>
+      </Grid>
+      <Grid container columns={1} >
+        <Grid.Column>
+          <Example/>
+        </Grid.Column>
+      </Grid>
+
+        </div>
       </div>
     );
   }
 }
 
 export default App;
+
+        // <div className="heads">
+
+        // </div>
